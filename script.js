@@ -127,10 +127,10 @@ function startCounting() {
 
       if (count < target) {
         count += increment;
-        counter.innerText = Math.ceil(count);
+        counter.innerText = Math.ceil(count) + "+";
         setTimeout(updateCount, 20);
       } else {
-        counter.innerText = target;
+        counter.innerText = target + "+";
       }
     };
 
