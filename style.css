@@ -627,6 +627,10 @@ overflow: hidden;
   color: white;
 }
 
+.footer-col a p:hover {
+  color: white;
+}
+
 /* Bottom */
 .footer-bottom {
   text-align: center;
